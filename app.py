@@ -23,4 +23,7 @@ with col1:
   if resp:
     st.write('Correcto!')
 
+with col2:
+  st.subheader("Esta es la segunda columna")
+
  
