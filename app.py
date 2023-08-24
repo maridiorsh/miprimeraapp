@@ -47,7 +47,7 @@ in_mod = st.selectbox(
 )
 if in_mod == "Audio":
          set_mod = "Reproducir audio"
-elif in_mod == "Visual";
+elif in_mod == "Visual":
          set_mod = "Reproducir video"
 elif in_mod == "Háptico":
          set_mod = "Activar vibración"
