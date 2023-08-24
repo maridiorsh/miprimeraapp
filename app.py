@@ -5,9 +5,9 @@ st.title("Mi primera aplicación")
 
 st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales.")
 st.write("Facilmente puedo realizar backend y frontend.")
-image = Image.open('foto.png')
+image = Image.open('foto.jpeg')
 
-st.image(image, caption='Interfaces multimodales")
+st.image(image, caption="Interfaces multimodales")
 
          
 texto = st.text_input ('Escribe algo', 'Este es mi texto')
@@ -21,6 +21,6 @@ with col1:
   st.write("Las interfaces multimodales mejoran la experiencia de usuario")
   resp = st.checkbox( 'Estoy de acuerdo')
   if resp:
-    st.write('Correcto!")
+    st.write('Correcto!')
 
  
