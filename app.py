@@ -25,5 +25,30 @@ with col1:
 
 with col2:
   st.subheader("Esta es la segunda columna")
+         modo = st.radio("Que Modalidad es la principal en tu interfaz", ('Visual', 'auditiva', 'Táctil'))
+if modo == 'Visual':
+         st.write('La vista es fundamental para tu interfaz')
+if modo == 'auditiva':
+         st.write('La audición es fundamental para tu interfaz')
+if modo == 'Táctil':
+         st.write('El tacto es fundamental para tu interfaz')
+         
+st. subheader("Uso de Botones")
+if st.button('Presiona el botón'):
+         st.write('Gracias por presionar')
+else:
+         st.write('No has presionado aún')
+
+
+st.subheader ("Selectbox")
+in_mod = st.selectbox(
+         "selecciona la modalidad",
+                  ("Audio", "visual", "Háptico"),
+)
+if in_mod == "Audio":
+         set mod = "Reproducir audio"
+elif in_mod == "Visual";
+         set mod = "Reproducir video"
+elif in mod == "Háptico":
 
  
